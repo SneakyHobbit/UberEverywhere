@@ -1,0 +1,102 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+
+BEGIN:VEVENT
+SUMMARY:Morning Commuters – Airport / Mission Valley
+DTSTART;TZID=America/Los_Angeles:20260108T060000
+DTEND;TZID=America/Los_Angeles:20260108T100000
+RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR
+DESCRIPTION:Weekday surge likely. Focus on San Diego Airport, Mission Valley, UTC.
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Slow Hours – Downtown / Tourist Spots / Delivery
+DTSTART;TZID=America/Los_Angeles:20260108T100000
+DTEND;TZID=America/Los_Angeles:20260108T140000
+RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR
+DESCRIPTION:Cruise downtown or tourist spots or take delivery gigs.
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Pre-Evening Prep – Offices / Airport
+DTSTART;TZID=America/Los_Angeles:20260108T140000
+DTEND;TZID=America/Los_Angeles:20260108T160000
+RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR
+DESCRIPTION:Position near high-demand office districts or airport for evening surge.
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Evening Commuters – Downtown / Gaslamp / Hillcrest
+DTSTART;TZID=America/Los_Angeles:20260108T160000
+DTEND;TZID=America/Los_Angeles:20260108T200000
+RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR
+DESCRIPTION:After office hours pickup; check Uber heatmap for surge.
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Dinner / Early Nightlife – Downtown / North Park
+DTSTART;TZID=America/Los_Angeles:20260108T200000
+DTEND;TZID=America/Los_Angeles:20260108T220000
+RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR
+DESCRIPTION:Cruise downtown & North Park; watch for surge events.
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Nightlife Peak – Gaslamp / PB / Mission Beach
+DTSTART;TZID=America/Los_Angeles:20260108T220000
+DTEND;TZID=America/Los_Angeles:20260109T020000
+RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR
+DESCRIPTION:Peak nightlife hours. Highest tips and surge pricing.
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Optional / Airport Shift – Late Night / Early Morning
+DTSTART;TZID=America/Los_Angeles:20260109T020000
+DTEND;TZID=America/Los_Angeles:20260109T060000
+RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR
+DESCRIPTION:Optional hours. Airport rides or rest.
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Tourists – Balboa Park / Old Town / Seaport Village
+DTSTART;TZID=America/Los_Angeles:20260110T100000
+DTEND;TZID=America/Los_Angeles:20260110T140000
+RRULE:FREQ=WEEKLY;BYDAY=FR,SA,SU
+DESCRIPTION:Weekend tourist hours. Focus on sightseeing hotspots.
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Pre-Event Surge – Petco Park / Conventions
+DTSTART;TZID=America/Los_Angeles:20260110T140000
+DTEND;TZID=America/Los_Angeles:20260110T180000
+RRULE:FREQ=WEEKLY;BYDAY=FR,SA,SU
+DESCRIPTION:Arrive 30–60 mins before events for surge pricing.
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Dinner & Nightlife – Downtown / Hillcrest / Gaslamp
+DTSTART;TZID=America/Los_Angeles:20260110T180000
+DTEND;TZID=America/Los_Angeles:20260110T220000
+RRULE:FREQ=WEEKLY;BYDAY=FR,SA,SU
+DESCRIPTION:Evening crowds. High surge and tips.
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Nightlife Peak – PB / Mission Beach / Gaslamp
+DTSTART;TZID=America/Los_Angeles:20260110T220000
+DTEND;TZID=America/Los_Angeles:20260111T020000
+RRULE:FREQ=WEEKLY;BYDAY=FR,SA,SU
+DESCRIPTION:Late-night party crowds. Highest earning potential.
+END:VEVENT
+
+BEGIN:VEVENT
+SUMMARY:Airport Shift – Late Night / Early Morning
+DTSTART;TZID=America/Los_Angeles:20260111T020000
+DTEND;TZID=America/Los_Angeles:20260111T060000
+RRULE:FREQ=WEEKLY;BYDAY=FR,SA,SU
+DESCRIPTION:Pick up arrivals; consistent but quieter demand.
+END:VEVENT
+
+END:VCALENDAR
