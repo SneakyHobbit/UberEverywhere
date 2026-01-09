@@ -4,62 +4,85 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:San Diego Uber Schedule
 X-WR-TIMEZONE:America/Los_Angeles
-X-WR-CALDESC:This calendar is static and does not auto-update from GitHub. Compatible with Proton Calendar.
+X-WR-CALDESC:Uber driving schedule synced from GitHub
+X-PUBLISHED-TTL:PT1H
+REFRESH-INTERVAL;VALUE=DURATION:PT1H
 
 BEGIN:VEVENT
+UID:morning-commute@ubereverywhere
+DTSTAMP:20260101T000000Z
+SEQUENCE:1
 SUMMARY:Morning Commuters – Airport / Mission Valley
 DTSTART;TZID=America/Los_Angeles:20260108T060000
 DTEND;TZID=America/Los_Angeles:20260108T100000
 RRULE:FREQ=DAILY
-DESCRIPTION:Daily surge likely. Focus on San Diego Airport, Mission Valley, UTC.
+DESCRIPTION:Daily surge likely. Focus on SAN Airport, Mission Valley, UTC.
 END:VEVENT
 
 BEGIN:VEVENT
-SUMMARY:Slow Hours – Downtown / Tourist Spots / Delivery
+UID:slow-hours@ubereverywhere
+DTSTAMP:20260101T000000Z
+SEQUENCE:1
+SUMMARY:Slow Hours – Downtown / Tourist / Delivery
 DTSTART;TZID=America/Los_Angeles:20260108T100000
 DTEND;TZID=America/Los_Angeles:20260108T140000
 RRULE:FREQ=DAILY
-DESCRIPTION:Cruise downtown or tourist spots or take delivery gigs.
+DESCRIPTION:Cruise downtown or tourist spots or switch to delivery apps.
 END:VEVENT
 
 BEGIN:VEVENT
+UID:pre-evening@ubereverywhere
+DTSTAMP:20260101T000000Z
+SEQUENCE:1
 SUMMARY:Pre-Evening Prep – Offices / Airport
 DTSTART;TZID=America/Los_Angeles:20260108T140000
 DTEND;TZID=America/Los_Angeles:20260108T160000
 RRULE:FREQ=DAILY
-DESCRIPTION:Position near high-demand office districts or airport for evening surge.
+DESCRIPTION:Stage near offices or airport for evening surge.
 END:VEVENT
 
 BEGIN:VEVENT
+UID:evening-commute@ubereverywhere
+DTSTAMP:20260101T000000Z
+SEQUENCE:1
 SUMMARY:Evening Commuters – Downtown / Gaslamp / Hillcrest
 DTSTART;TZID=America/Los_Angeles:20260108T160000
 DTEND;TZID=America/Los_Angeles:20260108T200000
 RRULE:FREQ=DAILY
-DESCRIPTION:After office hours pickup; check Uber heatmap for surge.
+DESCRIPTION:Post-office rush. Monitor heatmap for surge.
 END:VEVENT
 
 BEGIN:VEVENT
+UID:dinner-early-nightlife@ubereverywhere
+DTSTAMP:20260101T000000Z
+SEQUENCE:1
 SUMMARY:Dinner / Early Nightlife – Downtown / North Park
 DTSTART;TZID=America/Los_Angeles:20260108T200000
 DTEND;TZID=America/Los_Angeles:20260108T220000
 RRULE:FREQ=DAILY
-DESCRIPTION:Cruise downtown & North Park; watch for surge events.
+DESCRIPTION:Dinner crowds and early bar traffic.
 END:VEVENT
 
 BEGIN:VEVENT
+UID:nightlife-peak@ubereverywhere
+DTSTAMP:20260101T000000Z
+SEQUENCE:1
 SUMMARY:Nightlife Peak – Gaslamp / PB / Mission Beach
 DTSTART;TZID=America/Los_Angeles:20260108T220000
 DTEND;TZID=America/Los_Angeles:20260109T020000
 RRULE:FREQ=DAILY
-DESCRIPTION:Peak nightlife hours. Highest tips and surge pricing.
+DESCRIPTION:Highest tips and surge pricing.
 END:VEVENT
 
 BEGIN:VEVENT
-SUMMARY:Optional / Airport Shift – Late Night / Early Morning
+UID:late-night-airport@ubereverywhere
+DTSTAMP:20260101T000000Z
+SEQUENCE:1
+SUMMARY:Optional Airport Shift – Late Night / Early Morning
 DTSTART;TZID=America/Los_Angeles:20260109T020000
 DTEND;TZID=America/Los_Angeles:20260109T060000
 RRULE:FREQ=DAILY
-DESCRIPTION:Optional hours. Airport rides or rest.
+DESCRIPTION:Optional overnight airport runs or rest.
 END:VEVENT
 
 END:VCALENDAR
